@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="primaray_nav">
+            <!-- Social Media Icons -->
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <!-- Discount Section -->
+            <div class="discount">
+                <p> <i class="fa-solid fa-fire"></i>Summer sale discount off 30%!</p>
+            </div>
+
+            <!-- Currency Menu -->
+             <div class="primary_nav_menu">
+            <div class="currency-menu">
+                <div class="selected-currency">
+                    <img src="./images/USA-Flag.png" alt="">
+                    USD &#9662;
+                </div>
+                <ul>
+                    <li><a href="#" class="de">Euro</a></li>
+                    <li><a href="#" class="en">Pound</a></li>
+                    <li><a href="#" class="fr">Euro</a></li>
+                    <li><a href="#" class="ar">Riyal</a></li>
+                </ul>
+            </div>
+            
+            <!-- Language Menu -->
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <img src="./images/united-kingdom-flag.png" alt="">
+                    English&#9662;
+                </div>
+                <ul>
+                    <li><a href="#" class="de">German</a></li>
+                    <li><a href="#" class="en">English</a></li>
+                    <li><a href="#" class="fr">French</a></li>
+                    <li><a href="#" class="ar">Arabic</a></li>
+                </ul></div>
+        </div>
+        </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="./images/tenhno logo.png" alt=""></a>
+        </div>
+        <div class="nav_list">
+            <ul>
+                <li><a href="#">Home &#9662;</a>
+                    <ul class="drop_down">
+                        <li><a href="#">Trending products</a></li>
+                        <li><a href="#">New arrivals</a></li>
+                        <li><a href="#">Trending products</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Product &#9662;</a>
+                    <ul class="drop_down">
+                        <li><a href="#">Electronics Equipments</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Sports Equipments</a></li>
+                        <li><a href="#">Home & Kitchen</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop &#9662;</a>
+                    <ul class="drop_down">
+                        <li><a href="#">Nike shop</a></li>
+                        <li><a href="#">Samsung</a></li>
+                        <li><a href="#">Adidas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages &#9662;</a>
+                    <ul class="drop_down">
+                        <li><a href="#">Company Overview</a></li>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog &#9662;</a>
+                    <ul class="drop_down">
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Products Comparison</a></li>
+                        <li><a href="#">New Articles</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Social Icons in Navbar -->
+        <div class="social-icons">
+            <!-- Magnifier Icon -->
+            <div class="icon-container">
+                <i class="fas fa-search"></i>
+            </div>
+            <!-- User Icon -->
+            <div class="icon-container">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <!-- Heart Icon -->
+            <div class="icon-container">
+                <i class="fa-regular fa-heart"></i>
+                <span class="notification-badge blue">0</span>
+            </div>
+            <!-- Cart Icon -->
+            <div class="icon-container">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="notification-badge blue">1</span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <!-- Hero Section -->
+     <main>
+    <section class="hero">
+        <!-- Floating Images -->
+        <div class="floating-image1">
+            <img src="./images/pods.png" alt="Icon"> 
+        </div>
+        <div class="floating-image2">
+            <img src="./images/heaqdphone.png" alt="Icon"> 
+        </div>
+        <!-- Hero Content -->
+        <div class="content">
+            <p>Flat 30% off on all Digital</p>
+            <div class="text-container">
+                <div class=" hero_heading">HEADPHONE</div>
+                <a href="#" class="hero_btn">Shop Now</a> 
+            </div> 
+        </div>
+    </section>
+
+
+
+    <!-- trending products -->
+    <section id="trending_products">
+    <div class="trending">
+        <h1>Trending Products</h1>
+      </div>
+      <div class="trending_container">
+        <div class="sectionone">
+          <div class="cardone">
+            <img src="/images/cardone.avif" alt="watch" />
+            <p>Ultra Max 2.01 Big Display</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00 <span> &dollar;30.00</span></div>
+            <div class="contforcardone">
+              <div class="circleonecardone"></div>
+              <div class="circletwocardone"></div>
+            </div>
+          </div>
+  
+          <div class="cardtwo">
+            <img src="/images/cardtwo.avif" alt="watch" />
+            <p>VivoBook 16X Laptop</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00</div>
+            <div class="contforcardone">
+              <div class="circleonecardtwo"></div>
+              <div class="circletwocardtwo"></div>
+            </div>
+          </div>
+  
+          <div class="cardthree">
+            <img src="/images/cardthree.avif" alt="watch" />
+            <p>Redmi Note 12</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00</div>
+            <div class="contforcardone">
+              <div class="circleonecardthree"></div>
+              <div class="circletwocardthree"></div>
+            </div>
+          </div>
+  
+          <div class="cardfour">
+            <img src="/images/cardfour.avif" alt="watch" />
+            <p>Zebronics Bluetooth Speaker</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00</div>
+            <div class="contforcardone">
+              <div class="circleonecardfour"></div>
+              <div class="circletwocardfour"></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="sectiontwo">
+          <div class="cardfive">
+            <img src="/images/cardfive.avif" alt="watch" />
+            <p>Portronic SoundDrum</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00 <span> &dollar;30.00</span></div>
+            <div class="contforcardone">
+              <div class="circleonecardfive"></div>
+              <div class="circletwocardfive"></div>
+            </div>
+          </div>
+  
+          <div class="cardsix">
+            <img src="/images/cardsix.avif" alt="watch" />
+            <p>ORBIT 3.5Cm Super</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00</div>
+            <div class="contforcardone">
+              <div class="circleonecardsix"></div>
+              <div class="circletwocardsix"></div>
+            </div>
+          </div>
+  
+          <div class="cardseven">
+            <img src="/images/cardseven.avif" alt="watch" />
+            <p>Oppo F25 Pro</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00</div>
+            <div class="contforcardone">
+              <div class="circleonecardseven"></div>
+              <div class="circletwocardseven"></div>
+            </div>
+          </div>
+  
+          <div class="cardeight">
+            <img src="/images/cardeight.avif" alt="watch" />
+            <p>OnePlus 11</p>
+  
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio" />
+              <label title="text" for="star5"></label>
+              <input value="4" name="rate" id="star4" type="radio" />
+              <label title="text" for="star4"></label>
+              <input value="3" name="rate" id="star3" type="radio" checked="" />
+              <label title="text" for="star3"></label>
+              <input value="2" name="rate" id="star2" type="radio" />
+              <label title="text" for="star2"></label>
+              <input value="1" name="rate" id="star1" type="radio" />
+              <label title="text" for="star1"></label>
+            </div>
+  
+            <div class="price">&dollar;25.00 <span> &dollar;30.00</span></div>
+            <div class="contforcardone">
+              <div class="circleonecardeight"></div>
+              <div class="circletwocardeight"></div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- feedback section -->
+    <section id="feedback">
+      <div class="feedback">
+        <h1>Our Customer Feedback</h1>
+      </div>
+      <div class="main">
+    
+    
+    
+      <div class="divone">
+    
+    <div class="image">
+      <img src="images/feedbacktwo.webp" alt="person">
+    </div>
+     
+    </div>
+    
+    <div class="divtwo">
+    
+    <div class="reviews">
+      <P>&quot; The range of products available is extensive &comma; and the detailed product description and specifications provided helped me make an informed decisions.The checkout process was smooth and secure&comma;giving me confidence inmy purchase.The packaging was secure&comma;and the product arrived in perfect condition.I appreciate the attention to detail and commitment to customer satisfaction. &quot;</P>
+    </div>
+    
+    <div class="star">
+      <img src="images/star (1).png" alt="star">
+    </div>
+    
+    <div class="headphones">
+      <img src="images/log.avif" alt="headphones">
+    </div>
+    <div class="personname">
+      <h2>Jothan Don</h2>
+    </div>
+    
+    
+    <div class="customer">
+      <p>Customer Of Our Shop</p>
+    </div>
+    
+    
+    <div class="feedback_btn">
+     <button type="button">&larr; <span>&rarr;</span></button>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+<!-- iphone section -->
+<section class="contain">
+  <div class="contain-iphone">
+    <h3>BIG DISCOUNT</h3>
+    <h2>Apple iphone 15 pro max</h2>
+    <h4>$50.00 <span><del>$50.00</del></span></h4>
+    <div class="iphone_btn">
+    <button>
+      Button
+    </button></div>
+    <img src="./images/iphone.png" alt="" width="620vw" />
+  </div>
+</section>
+
+
+
+
+
+
+
+    <!-- trending categories -->
+    <section class="container">
+      <div class="images">
+        <h2>TRENDING CATAGORIES</h2>
+        <div class="image-menu">
+          <div class="box-1 box">
+            <img src="./images/category-1_x100.png" alt="" />
+            <h4>iPhone</h4>
+          </div>
+          <div class="box-2 box">
+            <img src="./images/category-2_x100.png" alt="" />
+            <h4>speaker</h4>
+          </div>
+          <div class="box-3 box">
+            <img src="./images/category-3_x100.png" alt="" />
+            <h4>headphones</h4>
+          </div>
+          <div class="box-4 box">
+            <img src="./images/category-4_x100.avif" alt="" />
+            <h4>laptops</h4>
+          </div>
+          <div class="box-5 box">
+            <img src="./images/category-5_x100.png" alt="" />
+            <h4>airpods</h4>
+          </div>
+          <div class="box-6 box">
+            <img src="./images/category-6_x100.png" alt="" />
+            <h4>smart watc</h4>
+          </div>
+        </div>
+      </div>
+
+      <section class="cards">
+        <div class="card-1">
+          <div class="image hec">
+            <h3>Sony Mdr 10rbt</h3>
+            <h1>New Collection</h1>
+            <a href="#">Shop Now</a>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <div class="image1 hec">
+            <h3>MackBook Pro</h3>
+            <h1>Best New</h1>
+            <a href="#">Shop Now</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+
+
+
+
+
+    <!-- limited time offer -->
+    <section class="blog-section">
+      <div class="text-container">
+        <div class="background-text">Blog Posts</div>
+        <div class="foreground-text">Blog Posts</div>
+      </div>
+        
+        <div class="blog-row">
+          <!-- Blog Post 1 -->
+          <div class="blog-card">
+            <img src="./images/ports.png" alt="Earbuds" class="blog-image">
+            <div class="blog-content">
+              <p class="blog-date">01 May, 2024</p>
+              <h3 class="blog-heading">The Rhythm of Earbuds in the Techno Age</h3>
+              <p class="blog-description">
+                In the vibrant realm of technology, where innovation orchestrates the future, one of the most ubiquitous and indispensable gadgets...
+              </p>
+            </div>
+          </div>
+      
+          <!-- Blog Post 2 -->
+          <div class="blog-card">
+            <img src="./images/laptop.png" alt="Laptop" class="blog-image">
+            <div class="blog-content">
+              <p class="blog-date">01 May, 2024</p>
+              <h3 class="blog-heading">The Techno-Themed Laptop Lifestyle</h3>
+              <p class="blog-description">
+                In today's digitally driven world, laptops have become indispensable tools for work, entertainment, and creative...
+              </p>
+            </div>
+          </div>
+      
+          <!-- Blog Post 3 -->
+          <div class="blog-card">
+            <img src="./images/headphone.png" alt="Headphones" class="blog-image">
+            <div class="blog-content">
+              <p class="blog-date">01 May, 2024</p>
+              <h3 class="blog-heading">The Melodies of Mobile Technology</h3>
+              <p class="blog-description">
+                In the symphony of modern living, technology orchestrates a constant rhythm, shaping our daily routines and interactions...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="top-footer">
+        <div class="newsletter">
+            <h3>Subscribe To Our Newsletter</h3>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Your Mail Address..." />
+            </div>
+        </div>
+        <div class="social-media">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="middle-footer">
+        <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">All Collections</a></li>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">My Cart</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Information</h4>
+            <ul>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">Smart-Watches</a></li>
+                <li><a href="#">Speakers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="#">Apple iPhone 15 Pro Max</a></li>
+                <li><a href="#">OnePlus 11</a></li>
+                <li><a href="#">Oppo F25 Pro</a></li>
+                <li><a href="#">Samsung Galaxy Z Flip 5</a></li>
+                <li><a href="#">OnePlus 11</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Shipping & Return</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <p>© 2024, Techno WorkDo, Powered by WorkDo.io</p>
+        <div class="payment-icons">
+            <img src="./images/visa.jpg" alt="Visa">
+            <img src="./images/mastercard.jpg" alt="Mastercard">
+            <img src="./images/paypal.jpg" alt="PayPal">
+            <img src="./images/amex.jpg" alt="American Express">
+            <img src="./images/discover.jpg" alt="Discover">
+        </div>
+    </div>
+</footer>
+</body>
+</html>
